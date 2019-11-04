@@ -122,12 +122,12 @@ span{
 <style lang="scss">
 
   html {
-  font-size: 16px;
+  font-size: 16px !important;
   @media screen and (min-width: 900px) {
-    font-size: 10px;
+    font-size: 10px !important;
   }
   @media screen and (min-width: 1200px) {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 
 }
