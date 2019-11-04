@@ -5,7 +5,9 @@
     flat
     class="menu"
   >
-    <v-toolbar-side-icon />
+    <v-toolbar-side-icon>
+      <Logo />
+    </v-toolbar-side-icon>
     <v-spacer />
     <v-toolbar-items class="menu-items">
       <v-btn text>
@@ -31,8 +33,13 @@
 </template>
 
 <script>
+import Logo from '~/components/Logo'
 export default {
-  name: 'Navigation'
+  name: 'Navigation',
+
+  components: {
+    Logo
+  }
 }
 </script>
 <style scoped>

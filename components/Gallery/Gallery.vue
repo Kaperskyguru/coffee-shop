@@ -58,7 +58,8 @@ export default {
     margin: 0 !important;
     padding: 0 !important;
     border:0 !important;
-
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
   }
 
   p{

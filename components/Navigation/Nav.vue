@@ -1,15 +1,8 @@
 <template>
   <v-row class="menu">
     <v-col
-      :lg="3"
-      :md="3"
-      align-self="left"
-    >
-      <Logo />
-    </v-col>
-    <v-col
-      :lg="9"
-      :md="9"
+      :lg="12"
+      :md="12"
       :align-self="right"
       justify-self="end"
     >
@@ -28,6 +21,7 @@
         md="6"
         lg="6"
         :align-self="start"
+        class="hidden-md-and-down"
       >
         <v-img src="/coffeebeans.png" class="coffeeimg" />
       </v-col>
@@ -37,13 +31,11 @@
 
 <script>
 import Menu from '~/components/Navigation'
-import Logo from '~/components/Logo'
 import CoffeeText from '~/components/CoffeeText'
 import Button from '~/components/Button.vue'
 export default {
   components: {
     Menu,
-    Logo,
     CoffeeText,
     Button
   },

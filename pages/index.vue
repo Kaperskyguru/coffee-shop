@@ -4,9 +4,11 @@
     justify-center
     align-center
   >
-    <v-container class="mt-10 mb-10">
-      <Services />
-    </v-container>
+    <transition name="fade">
+      <v-container class="mt-10 mb-10">
+        <Services />
+      </v-container>
+    </transition>
 
     <v-container class="mt-10 mb-10">
       <CoffeeInfo curve="right" />
@@ -49,7 +51,8 @@ export default {
 <style  scoped>
   .gallery{
     margin: 0px !important;
-    padding-top: 0px;
+    padding-top: 0px !important;
     border:0 !important;
+    padding-bottom:0px !important;
   }
 </style>

@@ -1,4 +1,4 @@
-// import colors from 'vuetify/es5/util/colors'
+import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'spa',
@@ -53,15 +53,15 @@ export default {
     theme: {
       light: true,
       themes: {
-        // light: {
-        //   primary: colors.blue.lighten2,
-        //   accent: colors.grey.lighten3,
-        //   secondary: colors.amber.lighten3,
-        //   info: colors.teal.darken1,
-        //   warning: colors.amber.base,
-        //   error: colors.deepOrange.accent4,
-        //   success: colors.green.accent3
-        // }
+        light: {
+          primary: colors.blue.lighten2,
+          accent: colors.grey.lighten3,
+          secondary: colors.amber.lighten3,
+          info: colors.teal.darken1,
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3
+        }
       }
     }
   },

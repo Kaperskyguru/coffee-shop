@@ -1,6 +1,6 @@
 <template>
   <v-app light fluid>
-    <transition name="slide">
+    <transition name="fade">
       <header id="header" class="brown lighten-5">
         <v-container>
           <Header />
@@ -8,7 +8,7 @@
       </header>
     </transition>
 
-    <transition name="slide">
+    <transition name="fade">
       <v-content transition="slide-x-transition" class="white">
         <nuxt />
       </v-content>
@@ -103,6 +103,19 @@ export default {
 
 span{
   color: rgb(97, 97, 97) !important;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
 }
 </style>
 
