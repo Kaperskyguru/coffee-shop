@@ -1,15 +1,18 @@
 <template>
   <v-app light fluid>
-    <header id="header" class="brown lighten-5">
-      <v-container>
-        <Header />
-      </v-container>
-    </header>
+    <transition name="slide">
+      <header id="header" class="brown lighten-5">
+        <v-container>
+          <Header />
+        </v-container>
+      </header>
+    </transition>
 
-    <v-content transition="slide-x-transition" class="white">
-      <nuxt />
-    </v-content>
-
+    <transition name="slide">
+      <v-content transition="slide-x-transition" class="white">
+        <nuxt />
+      </v-content>
+    </transition>
     <v-container fluid class="white--text foot">
       <div class="text-center d-flex flex-column justify-center ma-10 pa-10">
         <h1 class="pa-2">
