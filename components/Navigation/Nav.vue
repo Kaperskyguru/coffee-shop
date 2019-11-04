@@ -21,7 +21,7 @@
         md="6"
         sm="6"
       >
-        <CoffeeText :title="title" />
+        <CoffeeText :title="title" class="mb-10" />
         <Button width="180" />
       </v-col>
       <v-col

@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="coffeetext">
     <h5>Premium Coffee</h5>
     <p class="title">
       {{ title }} <!-- Quality coffee cultivated by Good -->
@@ -35,20 +35,19 @@ export default {
 
 <style scoped>
 h5{
-    font-size: .7rem;
+    font-size: .6rem;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.title{
-    text-transform: capitalize;
+.coffeetext .title{
     font-weight: 300;
-    font-size: 2.1rem !important;
+    font-size: 1.9rem !important;
     text-align: left;
 }
 
-.content{
-    font-size: .95rem;
+.coffeetext .content{
+    font-size: .7rem;
 }
 
 div{

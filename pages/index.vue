@@ -50,9 +50,6 @@ export default {
   .gallery{
     margin: 0px !important;
     padding-top: 0px;
-    padding-bottom: 0px !important;
-    padding-right: 12px;
-    padding-left: 12px;
     border:0 !important;
   }
 </style>

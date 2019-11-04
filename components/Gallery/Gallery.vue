@@ -62,7 +62,7 @@ export default {
   }
 
   p{
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
 h1{

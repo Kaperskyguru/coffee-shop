@@ -85,7 +85,7 @@ export default {
   }
 
   .foot >>> input::placeholder{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgb(128, 128, 128) !important;
   }
 
@@ -101,4 +101,19 @@ export default {
 span{
   color: rgb(97, 97, 97) !important;
 }
+</style>
+
+<style lang="scss">
+
+  html {
+  font-size: 16px;
+  @media screen and (min-width: 900px) {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+
+}
+  body{font-size: 16px;}
 </style>

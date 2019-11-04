@@ -32,12 +32,12 @@ export default {
 </script>
 <style scoped>
 h4{
-font-size: .9rem;
+font-size: .8rem;
 font-weight: 300;
 }
 h2{
     text-align: center !important;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400
 }
 

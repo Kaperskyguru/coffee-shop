@@ -37,7 +37,8 @@ export default {
 </script>
 <style scoped>
 .menu-items button{
-    font-size: .7rem;
+  font-weight: 400;
+    font-size: .6rem;
     text-transform: uppercase;
 }
 .menu{

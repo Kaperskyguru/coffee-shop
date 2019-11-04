@@ -56,7 +56,7 @@ export default {
 }
 p.content{
     margin-left:5px;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 500;
     padding-bottom: 20px !important;
 }
