@@ -32,7 +32,7 @@
 import Services from '~/components/services/Services.vue'
 import CoffeeInfo from '~/components/coffeeinfo/CoffeeInfo'
 import BestDeals from '~/components/deals/BestDeal'
-import Gallery from '~/components/Gallery/Gallery'
+import Gallery from '~/components/gallery/Gallery'
 export default {
   components: {
     Services,

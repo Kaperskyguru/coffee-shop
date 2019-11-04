@@ -31,8 +31,8 @@
 
 <script>
 import CoffeeImageCard from '~/components/coffeeinfo/CoffeeImageCard'
-import CoffeeText from '~/components/CoffeeText'
-import Button from '~/components/Button'
+import CoffeeText from '~/components/texts/CoffeeText'
+import Button from '~/components/buttons/Button'
 export default {
   components: {
     CoffeeImageCard,

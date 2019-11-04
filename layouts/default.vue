@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import Header from '~/components/Navigation/Nav.vue'
+import Header from '~/components/navigation/Nav.vue'
 export default {
   components: {
     Header

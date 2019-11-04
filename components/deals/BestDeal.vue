@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import Card from '~/components/BestDealCard'
+import Card from '~/components/deals/BestDealCard'
 export default {
   components: {
     Card
